@@ -1,6 +1,6 @@
 {
   "name": "rangex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Python3 range made with generator",
   "main": "range.js",
   "scripts": {

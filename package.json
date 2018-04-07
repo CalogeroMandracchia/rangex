@@ -1,0 +1,29 @@
+{
+  "name": "rangex",
+  "version": "1.0.0",
+  "description": "Python3 range made with generator",
+  "main": "range.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalogeroMandracchia/range.git"
+  },
+  "keywords": [
+    "range",
+    "generator",
+    "ES6",
+    "python",
+    "iterator"
+  ],
+  "author": "Calogero Mandracchia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CalogeroMandracchia/range/issues"
+  },
+  "homepage": "https://github.com/CalogeroMandracchia/range#readme"
+}

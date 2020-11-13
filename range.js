@@ -1,4 +1,4 @@
-'use sctrict';
+'use strict';
 
 function* range (start=0, stop, step=1)
 {

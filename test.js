@@ -1,6 +1,6 @@
 'use sctrict';
 
-const range = require('./range');
+import range from './built/range.js';
 
 const equal = (a=[], b=[]) => a.toString() == b.toString();
 const check = tester => (message="", ...test) => { const res = tester(...test) ? "PASSED" : "FAILED"; console.log(message, res) };

@@ -1,6 +1,6 @@
 'use strict';
 
-function* range (start=0, stop, step=1)
+function* range(start: number = 0, stop?: number, step: number = 1): Generator
 {
     if (stop == undefined)
     {
@@ -16,4 +16,4 @@ function* range (start=0, stop, step=1)
     }
 }
 
-module.exports = range
+export default range;

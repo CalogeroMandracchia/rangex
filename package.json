@@ -1,10 +1,17 @@
 {
   "name": "rangex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Python3 range made with generator",
-  "main": "range.js",
+  "type": "module",
+  "main": "built/range.js",
+  "types": "built/range.d.ts",
+  "files": [
+    "/built"
+  ],
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "node": "node built/range.js",
+    "watch": "tsc -w"
   },
   "engines": {
     "node": ">=6.3.1"

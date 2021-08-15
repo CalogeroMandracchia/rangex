@@ -11,7 +11,11 @@ $ npm install --save rangex
 ## API
 
 ```js
-const range = require('rangex')
+const range = require('rangex') 
+```
+or
+```js
+import range from 'rangex'
 ```
 
 ### range([start], stop[, step])
